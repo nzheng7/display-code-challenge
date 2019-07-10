@@ -1,0 +1,38 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+section {
+  backgrund-color: white;
+}
+
+.odd {
+  display: inline-block;
+  text-align: left;
+}
+
+.even {
+  display: inline-block;
+  text-align: right;
+}
+
+p {
+  display: inline-block;
+  font-size: 20px;
+  width: 20px;
+  height: 30px;
+}
+
+#odd {
+  display: inline-block;
+  background-color: red;
+  color: black;
+}
+
+#even {
+  display: block;
+  background-color: blue;
+  color: black;
+}
